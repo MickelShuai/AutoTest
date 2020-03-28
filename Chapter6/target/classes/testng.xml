@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="001">
+    <test name="ceshi">
+        <classes>
+            <class name = "com.tester.demo.testMethodDemo">
+                <methods>
+                    <include name="test1"></include>
+                    <include name="test2"></include>
+                    <include name="test3"></include>
+                    <include name="logDemo"></include>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name = "com.tester.demo.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
